@@ -7480,19 +7480,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\45763910893\\.nuget\\packages\\": {}
+    "C:\\Users\\mauro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks\\senai_czbooks\\senai_czbooks.csproj",
+      "projectUniqueName": "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks\\senai_czbooks\\senai_czbooks.csproj",
       "projectName": "senai_czbooks",
-      "projectPath": "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks\\senai_czbooks\\senai_czbooks.csproj",
-      "packagesPath": "C:\\Users\\45763910893\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks\\senai_czbooks\\obj\\",
+      "projectPath": "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks\\senai_czbooks\\senai_czbooks.csproj",
+      "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks\\senai_czbooks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\45763910893\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mauro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7563,7 +7563,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
