@@ -10,7 +10,7 @@ namespace senai_czbooks_api.Repositories
 {
     public class EmpresaRepository : IEmpresaRepository
     {
-        BlogContext ctx = new BlogContext();
+        CzBooksContext ctx = new CzBooksContext();
         public void Atualizar(int id, Empresa empresaAtualizada)
         {
             Empresa empresaBuscada = ctx.Empresas.Find(id);
@@ -18,6 +18,11 @@ namespace senai_czbooks_api.Repositories
             if (empresaAtualizada.NomeFantasia != null)
             {
                 empresaBuscada.NomeFantasia = empresaAtualizada.NomeFantasia;
+            }
+
+            if (empresaAtualizada.Endereco != null)
+            {
+                empresaBuscada.Endereco = empresaAtualizada.Endereco;
             }
 
             ctx.Empresas.Update(empresaBuscada);

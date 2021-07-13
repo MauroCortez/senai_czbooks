@@ -13,7 +13,7 @@ namespace senai_czbooks_api.Domains
         }
 
         public int IdTipoUsuario { get; set; }
-        public string TipoUsuario1 { get; set; }
+        public string NomeTipoUsuario { get; set; }
 
         public virtual ICollection<Usuario> Usuarios { get; set; }
     }

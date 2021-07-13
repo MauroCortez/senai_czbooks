@@ -4,9 +4,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace senai_czbooks_api
@@ -18,6 +21,7 @@ namespace senai_czbooks_api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
 
             services
             .AddAuthentication(options =>
@@ -53,6 +57,8 @@ namespace senai_czbooks_api
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
                     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+
+            
         {
             if (env.IsDevelopment())
             {

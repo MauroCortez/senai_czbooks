@@ -11,14 +11,14 @@ namespace senai_czbooks_api.Repositories
     public class TipoUsuarioRepository : ITipoUsuarioRepository
     {
 
-        BlogContext ctx = new BlogContext();
+        CzBooksContext ctx = new CzBooksContext();
         public void Atualizar(int id, TipoUsuario tipoUsuarioAtualizado)
         {
             TipoUsuario tipoUsuarioBuscado = ctx.TipoUsuarios.Find(id);
 
-            if (tipoUsuarioAtualizado.TipoUsuario1 != null)
+            if (tipoUsuarioAtualizado.NomeTipoUsuario != null)
             {
-                tipoUsuarioBuscado.TipoUsuario1 = tipoUsuarioAtualizado.TipoUsuario1;
+                tipoUsuarioBuscado.NomeTipoUsuario = tipoUsuarioAtualizado.NomeTipoUsuario;
             }
 
             ctx.TipoUsuarios.Update(tipoUsuarioBuscado);

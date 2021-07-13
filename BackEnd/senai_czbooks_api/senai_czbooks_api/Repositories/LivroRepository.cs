@@ -10,10 +10,35 @@ namespace senai_czbooks_api.Repositories
 {
     public class LivroRepository : ILivroRepository
     {
-        BlogContext ctx = new BlogContext();
+        CzBooksContext ctx = new CzBooksContext();
         public void Atualizar(int id, Livro livroAtualizado)
         {
-            throw new NotImplementedException();
+
+            Livro livroBuscado = ctx.Livros.Find(id);
+
+            if (livroAtualizado.Titulo != null)
+            {
+                livroBuscado.Titulo = livroAtualizado.Titulo;
+            }
+
+            if (livroAtualizado.Sinopse != null)
+            {
+                livroBuscado.Sinopse = livroAtualizado.Sinopse;
+            }
+
+            if (livroAtualizado.DataPublicacao <= DateTime.Today)
+            {
+                livroBuscado.DataPublicacao = livroAtualizado.DataPublicacao;
+            }
+
+            if (livroAtualizado.Preco != null)
+            {
+                livroBuscado.Preco = livroAtualizado.Preco;
+            }
+
+            ctx.Livros.Update(livroBuscado);
+
+            ctx.SaveChanges();
         }
 
         public Livro BuscarPorId(int id)

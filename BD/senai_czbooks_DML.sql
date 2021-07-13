@@ -18,8 +18,8 @@ VALUES								('Adm', 'adm@adm.com', 'adm123', 1)
 									,('Lewis Carroll', 'lewis@autor.com', 'lewis123', 2);
 GO
 
-INSERT INTO Empresa					(NomeFantasia)
-VALUES								('CZBooks');
+INSERT INTO Empresa					(NomeFantasia, Endereco)
+VALUES								('CZBooks', 'Rua Peixoto Teresa, 123');
 GO
 
 

@@ -5,16 +5,15 @@ using System.Collections.Generic;
 
 namespace senai_czbooks_api.Domains
 {
-    public partial class Empresa
+    public partial class Categorium
     {
-        public Empresa()
+        public Categorium()
         {
             Livros = new HashSet<Livro>();
         }
 
-        public int IdEmpresa { get; set; }
-        public string NomeFantasia { get; set; }
-        public string Endereco { get; set; }
+        public int IdCategoria { get; set; }
+        public string NomeCategoria { get; set; }
 
         public virtual ICollection<Livro> Livros { get; set; }
     }

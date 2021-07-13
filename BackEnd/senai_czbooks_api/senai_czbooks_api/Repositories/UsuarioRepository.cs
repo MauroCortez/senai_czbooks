@@ -10,15 +10,34 @@ namespace senai_czbooks_api.Repositories
 {
     public class UsuarioRepository : IUsuarioRepository
     {
-        BlogContext ctx = new BlogContext();
+        CzBooksContext ctx = new CzBooksContext();
         public void Atualizar(int id, Usuario usuarioAtualizado)
         {
-            throw new NotImplementedException();
+            Usuario usuarioBuscado = ctx.Usuarios.Find(id);
+
+            if (usuarioAtualizado.NomeUsuario != null)
+            {
+                usuarioBuscado.NomeUsuario = usuarioAtualizado.NomeUsuario;
+            }
+
+            if (usuarioAtualizado.Email != null)
+            {
+                usuarioBuscado.Email = usuarioAtualizado.Email;
+            }
+
+            if (usuarioAtualizado.Senha != null)
+            {
+                usuarioBuscado.Senha = usuarioAtualizado.Senha;
+            }
+
+            ctx.Usuarios.Update(usuarioBuscado);
+
+            ctx.SaveChanges();
         }
 
         public Usuario BuscarPorId(int id)
         {
-            return ctx.Usuarios.FirstOrDefault(i => i.IdUsuario == id)
+            return ctx.Usuarios.FirstOrDefault(i => i.IdUsuario == id);
         }
 
         public void Cadastrar(Usuario novoUsuario)

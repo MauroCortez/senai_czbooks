@@ -30,7 +30,7 @@ GO
 CREATE TABLE Categoria
 (
 	idCategoria		INT PRIMARY KEY IDENTITY
-	,Categoria		VARCHAR(200)
+	,NomeCategoria		VARCHAR(200)
 )
 
 CREATE TABLE Livro
