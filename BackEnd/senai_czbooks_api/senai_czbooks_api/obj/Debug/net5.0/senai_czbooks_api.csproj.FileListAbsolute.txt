@@ -119,3 +119,5 @@ C:\Users\45763910893\Desktop\senai_czbooks\BackEnd\senai_czbooks_api\senai_czboo
 C:\Users\45763910893\Desktop\senai_czbooks\BackEnd\senai_czbooks_api\senai_czbooks_api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\45763910893\Desktop\senai_czbooks\BackEnd\senai_czbooks_api\senai_czbooks_api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\45763910893\Desktop\senai_czbooks\BackEnd\senai_czbooks_api\senai_czbooks_api\obj\Debug\net5.0\senai_czbooks_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\45763910893\Desktop\senai_czbooks\BackEnd\senai_czbooks_api\senai_czbooks_api\bin\Debug\net5.0\senai_czbooks_api.xml
+C:\Users\45763910893\Desktop\senai_czbooks\BackEnd\senai_czbooks_api\senai_czbooks_api\obj\Debug\net5.0\senai_czbooks_api.xml
