@@ -1,4 +1,5 @@
-﻿using senai_czbooks_api.Contexts;
+﻿using Microsoft.EntityFrameworkCore;
+using senai_czbooks_api.Contexts;
 using senai_czbooks_api.Domains;
 using senai_czbooks_api.Interfaces;
 using System;
@@ -62,7 +63,7 @@ namespace senai_czbooks_api.Repositories
 
         public List<Livro> Listar()
         {
-            return ctx.Livros.ToList();
+            return ctx.Livros.Include(d => d.IdCategoriaNavigation).Include(d => d.IdUsuarioNavigation).ToList();
         }
     }
 }

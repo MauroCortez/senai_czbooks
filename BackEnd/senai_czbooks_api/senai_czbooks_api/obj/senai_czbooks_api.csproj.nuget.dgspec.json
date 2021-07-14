@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj": {}
+    "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj": {
+    "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj",
+        "projectUniqueName": "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj",
         "projectName": "senai_czbooks_api",
-        "projectPath": "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj",
-        "packagesPath": "C:\\Users\\45763910893\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\45763910893\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\obj\\",
+        "projectPath": "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\senai_czbooks_api.csproj",
+        "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mauro\\Desktop\\senai_czbooks\\BackEnd\\senai_czbooks_api\\senai_czbooks_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\45763910893\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mauro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -85,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
